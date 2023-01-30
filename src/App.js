@@ -3,7 +3,7 @@ import "./App.css";
 import Modal from "./Modal";
 
 class App extends Component {
-  const [show, setShow] = React.useState(1);
+  const [show, setShow] = useState(false);
   render() {
     return (
       <div className="App">
